@@ -1,0 +1,3 @@
+Requires the slick2d lib which is no longer in any public maven repos, so:
+http://slick.ninjacave.com/forum/viewtopic.php?t=3996
+http://code.google.com/p/gemserk-maven-repo/source/browse/maven/thirdparty/slick/slick/274?r=10
