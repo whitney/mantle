@@ -1,6 +1,7 @@
 package com.wzllr.mantle;
 
 import com.wzllr.mantle.engine.Game;
+import com.wzllr.mantle.engine.Input;
 import com.wzllr.mantle.engine.Time;
 import com.wzllr.mantle.engine.Window;
 
@@ -65,6 +66,7 @@ public class App {
                 }
 
                 Time.setDelta(frameTime);
+                Input.update();
 
                 game.input();
                 game.update();
